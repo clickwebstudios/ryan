@@ -1,0 +1,27 @@
+$main-color-grey: #D0D5DD;
+$main-color-blue: #1D2939;
+$main-color-blue2: #253141;
+$main-color-orange: #FCB150;
+$main-color-grey2: #667085;
+$main-color-green: #00ADB5;
+
+:root {
+  --main-color-orange: #{$main-color-orange};
+  --main-color-blue: #{$main-color-blue};
+  --main-color-blue2: #{$main-color-blue2};
+  --main-color-grey: #{$main-color-grey};
+  --main-color-grey2: #{$main-color-grey2};
+  --main-color-green: #{$main-color-green};
+}
+
+
+$publicAssetPath : "/wp-content/plugins/user-answers-form/dist";
+$assetsPath : "/wp-content/plugins/user-answers-form/assets";
+:root {
+  --public-asset-path: #{$publicAssetPath};
+}
+
+:export {
+  publicAssetPath: $publicAssetPath;
+  mainColor: $main-color-blue;
+}

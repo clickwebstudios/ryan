@@ -1,0 +1,32 @@
+{
+    "name": "sitepackages",
+    "type": "project",
+    "description": "sitepackages",
+    "keywords": [
+    
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "ausi/slug-generator": "^1.1",
+        "dompdf/dompdf": "^2.0.3",
+        "drewm/mailchimp-api": "^2.5",
+        "hashemi/php-csv-export": "dev-master",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.3",
+        "spatie/laravel-newsletter": "^4.11"
+    },
+    "require-dev": {
+    
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        
+    }
+}
